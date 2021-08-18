@@ -17,4 +17,4 @@ client.on('message', message => {
     }
 })
 
-client.login('ODc3NjI5MDkxNzA3MjMyMzA2.YR1ZyQ.xcwgxVIvBCmUPE4I37k15sgkQ2g')
+client.login('Your Bot Token')
