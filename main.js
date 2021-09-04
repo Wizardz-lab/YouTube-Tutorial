@@ -5,13 +5,13 @@ client.on('ready', () => {
     console.log('Bot is ready!')
 })
 
-client.on('message', message => {
+client.on('messageCreate', message => {
     if(message.content === 'hello') {
         message.channel.send('Hi!')
     }
 })
 
-client.on('message', message => {
+client.on('messageCreate', message => {
     if(message.content === 'help') {
         message.channel.send('Help\n\nFun Commands\n\nhello\n\nstuff')
     }
